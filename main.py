@@ -57,7 +57,6 @@ def main():
 
         result = model(frame, agnostic_nms=True)[0]
         detections = sv.Detections.from_yolov8(result)
-        detections = detections[detections.class_id == 47]
         labels = [
             f"{model.model.names[class_id]} {confidence:0.2f}"
             for _, confidence, class_id, _
