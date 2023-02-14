@@ -2,9 +2,13 @@
 
 <p align="center">
     <a href="https://youtu.be/QV85eYOb7gk">
-        <img src="https://user-images.githubusercontent.com/26109316/218762955-7451786c-4719-488b-af44-a73d8f956c37.jpg" alt="count-objects-crossing-line">
+        <img src="https://user-images.githubusercontent.com/26109316/218765786-5ae9d65d-10fc-4626-af72-8e833e3b8f34.jpg" alt="count-objects-crossing-line">
     </a>
 </p>
+
+## 👋 hello
+
+A short script showing how to build simple real-time video analytics apps using [Supervision](https://github.com/roboflow/supervision). Try it out, and most importantly have fun! 🤪
 
 ## 💻 Install
 
