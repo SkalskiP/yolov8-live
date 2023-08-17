@@ -59,7 +59,7 @@ def main():
         detections = sv.Detections.from_yolov8(result)
         labels = [
             f"{model.model.names[class_id]} {confidence:0.2f}"
-            for _, confidence, class_id, _
+            for _, _, confidence, class_id, _
             in detections
         ]
         frame = box_annotator.annotate(
